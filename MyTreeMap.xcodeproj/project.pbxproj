@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044123710DA542C360CD444D /* Pods_MyTreeMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CE1E2BEA679BCF2233F488 /* Pods_MyTreeMapTests.framework */; };
+		15B4409109BF0988416F9522 /* Pods_MyTreeMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816B3C0CFA00F9A6FA0142AE /* Pods_MyTreeMap.framework */; };
 		AFD2C65C1D47F06F00A64FA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2C65B1D47F06F00A64FA3 /* AppDelegate.swift */; };
 		AFD2C65E1D47F06F00A64FA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2C65D1D47F06F00A64FA3 /* ViewController.swift */; };
 		AFD2C6601D47F06F00A64FA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD2C65F1D47F06F00A64FA3 /* Assets.xcassets */; };
@@ -25,6 +27,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0869C07C626121FA627B41CA /* Pods-MyTreeMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTreeMapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyTreeMapTests/Pods-MyTreeMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C6746B776B9B3AA4169D4D3 /* Pods-MyTreeMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTreeMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTreeMap/Pods-MyTreeMap.release.xcconfig"; sourceTree = "<group>"; };
+		2D57A434B340A117C2B70A9F /* Pods-MyTreeMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTreeMapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTreeMapTests/Pods-MyTreeMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		44E7F12FDB645E8D9CE630C5 /* Pods-MyTreeMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTreeMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyTreeMap/Pods-MyTreeMap.debug.xcconfig"; sourceTree = "<group>"; };
+		816B3C0CFA00F9A6FA0142AE /* Pods_MyTreeMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTreeMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD2C6581D47F06F00A64FA3 /* MyTreeMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTreeMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD2C65B1D47F06F00A64FA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFD2C65D1D47F06F00A64FA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +41,7 @@
 		AFD2C6691D47F06F00A64FA3 /* MyTreeMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTreeMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD2C66D1D47F06F00A64FA3 /* MyTreeMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTreeMapTests.swift; sourceTree = "<group>"; };
 		AFD2C66F1D47F06F00A64FA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CE1E2BEA679BCF2233F488 /* Pods_MyTreeMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTreeMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15B4409109BF0988416F9522 /* Pods_MyTreeMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,18 +57,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044123710DA542C360CD444D /* Pods_MyTreeMapTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BA36CD30223A290749086CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				816B3C0CFA00F9A6FA0142AE /* Pods_MyTreeMap.framework */,
+				F1CE1E2BEA679BCF2233F488 /* Pods_MyTreeMapTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FBD59676D71C820E859BE03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44E7F12FDB645E8D9CE630C5 /* Pods-MyTreeMap.debug.xcconfig */,
+				0C6746B776B9B3AA4169D4D3 /* Pods-MyTreeMap.release.xcconfig */,
+				0869C07C626121FA627B41CA /* Pods-MyTreeMapTests.debug.xcconfig */,
+				2D57A434B340A117C2B70A9F /* Pods-MyTreeMapTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AFD2C64F1D47F06F00A64FA3 = {
 			isa = PBXGroup;
 			children = (
 				AFD2C65A1D47F06F00A64FA3 /* MyTreeMap */,
 				AFD2C66C1D47F06F00A64FA3 /* MyTreeMapTests */,
 				AFD2C6591D47F06F00A64FA3 /* Products */,
+				6FBD59676D71C820E859BE03 /* Pods */,
+				6BA36CD30223A290749086CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFD2C6721D47F06F00A64FA3 /* Build configuration list for PBXNativeTarget "MyTreeMap" */;
 			buildPhases = (
+				CB27E98CCE2E2A9F9234A755 /* [CP] Check Pods Manifest.lock */,
 				AFD2C6541D47F06F00A64FA3 /* Sources */,
 				AFD2C6551D47F06F00A64FA3 /* Frameworks */,
 				AFD2C6561D47F06F00A64FA3 /* Resources */,
+				D169D533C4BD467020E2BF5D /* [CP] Embed Pods Frameworks */,
+				AB84A5C76DA9DADB77AB4750 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -117,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFD2C6751D47F06F00A64FA3 /* Build configuration list for PBXNativeTarget "MyTreeMapTests" */;
 			buildPhases = (
+				AA6CA49C8D5A059F14BE4543 /* [CP] Check Pods Manifest.lock */,
 				AFD2C6651D47F06F00A64FA3 /* Sources */,
 				AFD2C6661D47F06F00A64FA3 /* Frameworks */,
 				AFD2C6671D47F06F00A64FA3 /* Resources */,
+				3B5B0624FE236C6B3FE4944C /* [CP] Embed Pods Frameworks */,
+				70816FEFDC5678FA52AF17E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +225,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B5B0624FE236C6B3FE4944C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTreeMapTests/Pods-MyTreeMapTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70816FEFDC5678FA52AF17E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTreeMapTests/Pods-MyTreeMapTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA6CA49C8D5A059F14BE4543 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB84A5C76DA9DADB77AB4750 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTreeMap/Pods-MyTreeMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB27E98CCE2E2A9F9234A755 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D169D533C4BD467020E2BF5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTreeMap/Pods-MyTreeMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AFD2C6541D47F06F00A64FA3 /* Sources */ = {
@@ -312,6 +443,7 @@
 		};
 		AFD2C6731D47F06F00A64FA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E7F12FDB645E8D9CE630C5 /* Pods-MyTreeMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -324,6 +456,7 @@
 		};
 		AFD2C6741D47F06F00A64FA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C6746B776B9B3AA4169D4D3 /* Pods-MyTreeMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -336,6 +469,7 @@
 		};
 		AFD2C6761D47F06F00A64FA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0869C07C626121FA627B41CA /* Pods-MyTreeMapTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -349,6 +483,7 @@
 		};
 		AFD2C6771D47F06F00A64FA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D57A434B340A117C2B70A9F /* Pods-MyTreeMapTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -379,6 +514,7 @@
 				AFD2C6741D47F06F00A64FA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFD2C6751D47F06F00A64FA3 /* Build configuration list for PBXNativeTarget "MyTreeMapTests" */ = {
 			isa = XCConfigurationList;
@@ -387,6 +523,7 @@
 				AFD2C6771D47F06F00A64FA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
