@@ -14,6 +14,8 @@
 		AFD2C6601D47F06F00A64FA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD2C65F1D47F06F00A64FA3 /* Assets.xcassets */; };
 		AFD2C6631D47F06F00A64FA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD2C6611D47F06F00A64FA3 /* Main.storyboard */; };
 		AFD2C66E1D47F06F00A64FA3 /* MyTreeMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2C66D1D47F06F00A64FA3 /* MyTreeMapTests.swift */; };
+		AFD2C67B1D47F8F600A64FA3 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2C67A1D47F8F600A64FA3 /* File.swift */; };
+		AFD2C67C1D47F8F600A64FA3 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2C67A1D47F8F600A64FA3 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		AFD2C6691D47F06F00A64FA3 /* MyTreeMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTreeMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD2C66D1D47F06F00A64FA3 /* MyTreeMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTreeMapTests.swift; sourceTree = "<group>"; };
 		AFD2C66F1D47F06F00A64FA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD2C67A1D47F8F600A64FA3 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File.swift; path = ExplorativeTree/File.swift; sourceTree = "<group>"; };
+		AFD2C67D1D47FB5100A64FA3 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = MyTreeMap/ExplorativeTree/MyPlayground.playground; sourceTree = "<group>"; };
 		F1CE1E2BEA679BCF2233F488 /* Pods_MyTreeMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTreeMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -87,6 +91,7 @@
 		AFD2C64F1D47F06F00A64FA3 = {
 			isa = PBXGroup;
 			children = (
+				AFD2C67D1D47FB5100A64FA3 /* MyPlayground.playground */,
 				AFD2C65A1D47F06F00A64FA3 /* MyTreeMap */,
 				AFD2C66C1D47F06F00A64FA3 /* MyTreeMapTests */,
 				AFD2C6591D47F06F00A64FA3 /* Products */,
@@ -107,6 +112,7 @@
 		AFD2C65A1D47F06F00A64FA3 /* MyTreeMap */ = {
 			isa = PBXGroup;
 			children = (
+				AFD2C6781D47F81600A64FA3 /* ExplorativeTree */,
 				AFD2C65B1D47F06F00A64FA3 /* AppDelegate.swift */,
 				AFD2C65D1D47F06F00A64FA3 /* ViewController.swift */,
 				AFD2C65F1D47F06F00A64FA3 /* Assets.xcassets */,
@@ -123,6 +129,14 @@
 				AFD2C66F1D47F06F00A64FA3 /* Info.plist */,
 			);
 			path = MyTreeMapTests;
+			sourceTree = "<group>";
+		};
+		AFD2C6781D47F81600A64FA3 /* ExplorativeTree */ = {
+			isa = PBXGroup;
+			children = (
+				AFD2C67A1D47F8F600A64FA3 /* File.swift */,
+			);
+			name = ExplorativeTree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFD2C65E1D47F06F00A64FA3 /* ViewController.swift in Sources */,
+				AFD2C67B1D47F8F600A64FA3 /* File.swift in Sources */,
 				AFD2C65C1D47F06F00A64FA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFD2C66E1D47F06F00A64FA3 /* MyTreeMapTests.swift in Sources */,
+				AFD2C67C1D47F8F600A64FA3 /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
